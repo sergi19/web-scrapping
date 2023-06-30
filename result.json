@@ -1,0 +1,81 @@
+{
+  "normalized": {
+    "vessels": ["HMM GAON"],
+    "arrival": { "date": "2023/03/08, 14:00", "location": "Rotterdam", "vessels": "HMM GAON" }
+  },
+  "raw": {
+    "shipmentdetails": {
+      "departure": "Kaohsiung,Taiwan",
+      "scheduleddeparture": "2023/02/05, 0:00",
+      "reviseddeparture": "2023/02/05, 19:00",
+      "destination": "Rotterdam",
+      "scheduledarrival": "2023/03/08, 7:00",
+      "revisedarrival": "2023/03/08, 14:00",
+      "numberofpieces": "947",
+      "totalweight": "26935.19 KGS",
+      "totalvolume": "382.08 CBM"
+    },
+    "otherreferences": { "shippingnumber": "CE220101CH" },
+    "events": [
+      { "event": "Booked By Customer", "date": "2022/12/30, 11:40", "location": "TAIPEI", "comments": "-" },
+      { "event": "Booked On Flight / Vessel", "date": "2023/01/05, 13:55", "location": "TAIPEI", "comments": "-" },
+      {
+        "event": "Received Export Warehouse / CY",
+        "date": "2023/01/13, 8:41",
+        "location": "TAICHUNG",
+        "comments": "XINU8046210"
+      },
+      { "event": "Self Delivered", "date": "2023/01/19, 9:00", "location": "TAICHUNG", "comments": "-" },
+      {
+        "event": "Changed Estimated Time Of Departure",
+        "date": "2023/02/04, 10:00",
+        "location": "TAICHUNG",
+        "comments": "-"
+      },
+      {
+        "event": "Estimated Time Of Departure",
+        "date": "2023/02/05, 0:00",
+        "location": "KAOHSIUNG (TAKAO)",
+        "comments": "HMM GAON"
+      },
+      {
+        "event": "Departed / Confirmed On Board",
+        "date": "2023/02/05, 14:54",
+        "location": "KAOHSIUNG (TAKAO)",
+        "comments": "UACU5309900"
+      },
+      {
+        "event": "Changed Estimated Time Of Departure",
+        "date": "2023/02/05, 19:00",
+        "location": "TAICHUNG",
+        "comments": "-"
+      },
+      { "event": "Shipping Notice Sent To Legacy", "date": "2023/02/06, 11:35", "location": "TAIPEI", "comments": "-" },
+      {
+        "event": "Received Import Warehouse / CY",
+        "date": "2023/03/08, 6:12",
+        "location": "ROTTERDAM",
+        "comments": "TLLU5944165"
+      },
+      { "event": "Arrived", "date": "2023/03/08, 6:12", "location": "ROTTERDAM", "comments": "-" },
+      { "event": "Estimated Time Of Arrival", "date": "2023/03/08, 7:00", "location": "ROTTERDAM", "comments": "-" },
+      {
+        "event": "Changed ETA Of Flight/Vessel",
+        "date": "2023/03/08, 14:00",
+        "location": "ROTTERDAM",
+        "comments": "8;CHANGED SCHEDULE"
+      },
+      {
+        "event": "Estimated Arrival Final CY / CFS",
+        "date": "2023/03/08, 14:00",
+        "location": "ROTTERDAM",
+        "comments": "-"
+      }
+    ],
+    "contactinformation": {
+      "exportbranch": { "name": "CE220201CH", "email": "CE220601CH" },
+      "importbranch": { "name": "CE220701CH", "email": "CE220901CH" }
+    },
+    "error": "Container 'RFCU5026071' not found"
+  }
+}
