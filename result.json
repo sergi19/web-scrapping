@@ -1,111 +1,90 @@
 {
-  "normalized": {
-    "vessels": ["HMM GARAM"],
-    "arrival": { "date": "2023/04/04, 7:00", "location": "SOUTHAMPTON, UK.", "vessels": "HMM GARAM" }
-  },
-  "raw": {
-    "shipmentdetails": {
-      "departure": "Kaohsiung",
-      "scheduleddeparture": "2023/02/20, 0:00",
-      "reviseddeparture": "2023/02/20, 22:00",
-      "destination": "SOUTHAMPTON, UK.",
-      "scheduledarrival": "2023/04/03, 7:00",
-      "revisedarrival": "2023/04/04, 7:00",
-      "numberofpieces": "666",
-      "totalweight": "12147.88 KGS",
-      "totalvolume": "183.77 CBM"
+  "containernumber": "TGBU6780954",
+  "masterblnumber": "TWTPE0000258429",
+  "data": {
+    "normalized": {
+      "vessels": ["EVER GRADE"],
+      "arrival": { "date": "2023/03/30, 2:30", "location": "Rotterdam", "vessels": "EVER GRADE" }
     },
-    "otherreferences": { "shippingnumber": "9271" },
-    "events": [
-      { "event": "Booked By Customer", "date": "2022/12/19, 10:55", "location": "TAIPEI", "comments": "-" },
-      { "event": "Booked On Flight / Vessel", "date": "2023/01/19, 23:13", "location": "TAIPEI", "comments": "-" },
-      {
-        "event": "Received Export Warehouse / CY",
-        "date": "2023/02/03, 8:16",
-        "location": "TAICHUNG",
-        "comments": "UACU5709275"
+    "raw": {
+      "shipmentdetails": {
+        "departure": "Taipei,Taiwan",
+        "scheduleddeparture": "2023/03/03, 0:00",
+        "reviseddeparture": "-",
+        "destination": "Rotterdam",
+        "scheduledarrival": "2023/03/30, 6:00",
+        "revisedarrival": "2023/03/30, 2:30",
+        "numberofpieces": "2195",
+        "totalweight": "14655.72 KGS",
+        "totalvolume": "107.29 CBM"
       },
-      { "event": "Self Delivered", "date": "2023/02/09, 0:00", "location": "TAICHUNG", "comments": "-" },
-      {
-        "event": "Changed Estimated Time Of Departure",
-        "date": "2023/02/19, 22:00",
-        "location": "TAICHUNG",
-        "comments": "-"
+      "otherreferences": { "shippingnumber": "0245+0260+0276" },
+      "events": [
+        { "event": "Booked By Customer", "date": "2023/02/06, 16:04", "location": "TAIPEI", "comments": "-" },
+        { "event": "Booked On Flight / Vessel", "date": "2023/02/08, 13:17", "location": "TAIPEI", "comments": "-" },
+        {
+          "event": "Received Export Warehouse / CY",
+          "date": "2023/02/18, 16:03",
+          "location": "TAICHUNG",
+          "comments": "TGBU6780954"
+        },
+        { "event": "Self Delivered", "date": "2023/02/23, 8:00", "location": "TAICHUNG", "comments": "-" },
+        {
+          "event": "Departed / Confirmed On Board",
+          "date": "2023/03/03, 12:54",
+          "location": "TAIPEI",
+          "comments": "EGHU8428744 Departed / Confirmed On"
+        },
+        {
+          "event": "Estimated Time Of Departure",
+          "date": "2023/03/03, 0:00",
+          "location": "TAIPEI",
+          "comments": "EVER GRADE"
+        },
+        {
+          "event": "Shipping Notice Sent To Legacy",
+          "date": "2023/03/06, 11:35",
+          "location": "TAIPEI",
+          "comments": "-"
+        },
+        {
+          "event": "Changed ETA Of Flight/Vessel",
+          "date": "2023/03/29, 23:00",
+          "location": "ROTTERDAM",
+          "comments": "8;CHANGED SCHEDULE"
+        },
+        {
+          "event": "Estimated Arrival Final CY / CFS",
+          "date": "2023/03/30, 0:00",
+          "location": "ROTTERDAM",
+          "comments": "-"
+        },
+        {
+          "event": "Changed ETA Of Flight/Vessel",
+          "date": "2023/03/30, 2:30",
+          "location": "ROTTERDAM",
+          "comments": "8;CHANGED SCHEDULE"
+        },
+        { "event": "Arrived", "date": "2023/03/30, 5:42", "location": "ROTTERDAM", "comments": "-" },
+        { "event": "Estimated Time Of Arrival", "date": "2023/03/30, 6:00", "location": "ROTTERDAM", "comments": "-" },
+        {
+          "event": "Received Import Warehouse / CY",
+          "date": "2023/03/30, 16:46",
+          "location": "ROTTERDAM",
+          "comments": "EGHU8428744"
+        },
+        {
+          "event": "Changed ETA Of Flight/Vessel",
+          "date": "2023/03/30, 23:00",
+          "location": "ROTTERDAM",
+          "comments": "8;CHANGED SCHEDULE"
+        }
+      ],
+      "contactinformation": {
+        "exportbranch": { "name": "CEA230212CH", "email": "CEA230304CH" },
+        "importbranch": { "name": "CEA230630CH", "email": "CEA230717CH" }
       },
-      { "event": "Shipping Notice Sent To Legacy", "date": "2023/02/20, 11:57", "location": "TAIPEI", "comments": "-" },
-      {
-        "event": "Estimated Time Of Departure",
-        "date": "2023/02/20, 0:00",
-        "location": "KAOHSIUNG (TAKAO)",
-        "comments": "HMM GARAM"
-      },
-      {
-        "event": "Departed / Confirmed On Board",
-        "date": "2023/02/20, 15:45",
-        "location": "KAOHSIUNG (TAKAO)",
-        "comments": "TLLU5950717"
-      },
-      {
-        "event": "Changed Estimated Time Of Departure",
-        "date": "2023/02/20, 22:00",
-        "location": "TAICHUNG",
-        "comments": "C08;CARRIER_DELAYED_VESSEL"
-      },
-      {
-        "event": "Changed ETA Of Flight/Vessel",
-        "date": "2023/03/29, 19:00",
-        "location": "SOUTHAMPTON",
-        "comments": "980;CONFIRM EXTERNAL BOOKING"
-      },
-      {
-        "event": "Changed ETA Of Flight/Vessel",
-        "date": "2023/04/02, 3:00",
-        "location": "SOUTHAMPTON",
-        "comments": "980;CONFIRM EXTERNAL BOOKING"
-      },
-      {
-        "event": "Changed ETA Of Flight/Vessel",
-        "date": "2023/04/03, 7:00",
-        "location": "SOUTHAMPTON",
-        "comments": "980;CONFIRM EXTERNAL BOOKING"
-      },
-      {
-        "event": "Estimated Time Of Arrival",
-        "date": "2023/04/03, 7:00",
-        "location": "SOUTHAMPTON",
-        "comments": "UACU5709275"
-      },
-      { "event": "Self Pickup", "date": "2023/04/04, 0:00", "location": "SOUTHAMPTON", "comments": "-" },
-      {
-        "event": "Changed ETA Of Flight/Vessel",
-        "date": "2023/04/04, 0:01",
-        "location": "SOUTHAMPTON",
-        "comments": "980;CONFIRM EXTERNAL BOOKING"
-      },
-      {
-        "event": "Received Import Warehouse / CY",
-        "date": "2023/04/03, 23:06",
-        "location": "SOUTHAMPTON",
-        "comments": "RFCU5026071"
-      },
-      { "event": "Arrived", "date": "2023/04/03, 23:06", "location": "SOUTHAMPTON", "comments": "-" },
-      {
-        "event": "Changed ETA Of Flight/Vessel",
-        "date": "2023/04/04, 7:00",
-        "location": "SOUTHAMPTON",
-        "comments": "8;CHANGED SCHEDULE"
-      },
-      {
-        "event": "Estimated Arrival Final CY / CFS",
-        "date": "2023/04/04, 7:00",
-        "location": "SOUTHAMPTON",
-        "comments": "-"
-      }
-    ],
-    "contactinformation": {
-      "exportbranch": { "name": "SI TAIPEI", "email": "info.tw@dbschenker.com" },
-      "importbranch": { "name": "-", "email": "-" }
-    },
-    "error": ""
+      "error": ""
+    }
   }
 }
